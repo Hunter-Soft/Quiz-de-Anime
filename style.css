@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.Milhao {
+  justify-content: center;
+  margin-top: 0em;
+}
+
+#logo{
+  position: absolute;
+  width: 20%;
+  left: 38%;
+  margin-top: 0em;
+  opacity: 1;
+  animation: slider 1.4s ease-in-out;
+}
+
+@keyframes slider{
+  0%{
+    transform: scale(.9);
+    transform: translateY(10em);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
