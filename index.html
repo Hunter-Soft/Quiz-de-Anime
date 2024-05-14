@@ -8,8 +8,30 @@
 </style>
 </head>
 <body>
+  <audio id="audio1" autoplay>
+    <source src="mp3/silvio.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="audio2" loop>
+    <source src="mp3/Tema.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  window.addEventListener('load', function() {
+      var audio1 = document.getElementById('audio1');
+      var audio2 = document.getElementById('audio2');
+      
+      // Quando o primeiro áudio terminar, o segundo começa a tocar em loop
+      audio1.addEventListener('ended', function() {
+          audio2.play();
+      });
+  });
+</script>
+
   <div class="Milhao">
    <img src="img/show.png" id="logo">
+   <a class="Versão">Versão</a>
+     <a class="Anime">Anime/geek</a>
   </div>
 </body>
 </html>
