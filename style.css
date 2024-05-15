@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: rgb(29,119,180);
+  background: linear-gradient(90deg, rgba(29,119,180,1) 23%, rgba(12,160,224,1) 58%, rgba(0,123,255,1) 85%);
 }
 
 .Milhao {
@@ -12,7 +14,7 @@ html, body {
 #logo{
   position: absolute;
   width: 20%;
-  left: 39%;
+  left: 40%;
   margin-top: 0em;
   opacity: 1;
   animation: slider 1.4s ease-in-out;
@@ -21,7 +23,7 @@ html, body {
 .Versão{
   font-size: 300px;
   position: absolute;
-  left: 4500px;
+  left: 4600px;
   margin-top: 3.5em;
   animation: slider2 2.4s ease;
 }
@@ -29,9 +31,18 @@ html, body {
 .Anime{
   font-size: 300px;
   position: absolute;
-  left: 4200px;
+  left: 4300px;
   margin-top: 5em;
   animation: slider2 3.4s ease;
+}
+
+.card {
+  width: 3700px;
+  height: 2000px;
+  margin-top: 50em;
+  border-radius: 80px;
+  background: lightgrey;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
 
 @keyframes slider{
