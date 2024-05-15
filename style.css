@@ -11,6 +11,10 @@ html, body {
   margin-top: 0em;
 }
 
+.Imagens {
+  position: absolute;
+}
+
 #logo{
   position: absolute;
   width: 20%;
@@ -43,6 +47,32 @@ html, body {
   border-radius: 80px;
   background: lightgrey;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+
+#silvo {
+  position: absolute;
+  width: 40%;
+  left: -2%;
+  animation: slider 1.4s ease-in-out;
+  margin-top: -70em;
+}
+
+#goku {
+  position: absolute;
+  width: 25%;
+  left: 70%;
+  animation: slider 1.4s ease-in-out;
+  margin-top: -70em;
+}
+
+.Botoes {
+  position: absolute;
+  font-size: 90px;
+  border-radius: 80px;
+  margin-top: 1em;
+  left: 41%;
+  width: 1000px;
+  height: 500px;
 }
 
 @keyframes slider{
